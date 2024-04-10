@@ -31,5 +31,7 @@ Miglioramento dell'esperienza utente:** L'interattività del counter rende l'esp
 
 In conclusione, il counter interattivo in JavaScript rappresenta una risorsa preziosa per gli sviluppatori web che desiderano arricchire le loro applicazioni con un elemento contatore versatile e personalizzabile.
 
-# Anteprima Apllicazione
+# Anteprima Appllicazione
 ![counter screnshoot](https://github.com/enricocairo03/counter-application/assets/128790003/13122286-1ff5-43dd-a2d7-e7e6a443839a)
+
+**Link per provare l'applicazione https://enricocairo03.github.io/counter-application/**
