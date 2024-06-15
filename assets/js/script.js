@@ -4,15 +4,24 @@ const resetBtn = document.getElementById("resetBtn");
 const countBox = document.getElementById("countLabel");
 let count = 0;
 
-incrementBtn.onclick = function () {
+function updateCount() {
+  countBox.textContent = count;
+}
+
+incrementBtn.addEventListener("click", function () {
   count++;
-  countBox.textContent = count;
-};
-decrementBtn.onclick = function () {
+  updateCount();
+});
+
+decrementBtn.addEventListener("click", function () {
   count--;
-  countBox.textContent = count;
-};
-resetBtn.onclick = function () {
+  updateCount();
+});
+
+resetBtn.addEventListener("click", function () {
   count = 0;
-  countBox.textContent = count;
-};
+  updateCount();
+  alert("Hai resettato il contatore!!");
+});
+
+updateCount();
