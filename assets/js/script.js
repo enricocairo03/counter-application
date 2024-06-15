@@ -21,7 +21,7 @@ decrementBtn.addEventListener("click", function () {
 resetBtn.addEventListener("click", function () {
   count = 0;
   updateCount();
-  alert("Hai resettato il contatore!!");
+  alert("You have reset the counter!!");
 });
 
 updateCount();
